@@ -12,7 +12,7 @@ class Category(PublishedModel):
     )
 
     class Meta:
-        verbose_name = 'Категория'
+        verbose_name = 'категория'
         verbose_name_plural = 'Категории'
 
     def __str__(self):
